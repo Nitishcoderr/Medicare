@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    overflow: hidden;
+    max-width: 1440px;
+    background-color: #f0f4f5;
+    margin: auto;
+    font-family: 'Poppins', sans-serif;
+}
+/* navbar */
+.navbar{
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.navbar img{
+    width: 130px;
+    cursor: pointer;
+}
+ul{
+    display: flex;
+    list-style: none;
+    /* border: 2px solid red; */
+}
+ul li{
+    display: block;
+}
+ul li a{
+    text-decoration: none;
+    margin: 0 20px;
+    font-size: 18px;
+    font-weight: 500;
+    color: black;
+}
+.ham i{
+    display: none;
+}
+/* utility-class */
+h1{
+    font-size: 30px;
+    font-weight: 700;
+}
+/* main-section */
+.main-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 85vh;
+    position: relative;
+}
+/* left-section */
+.top-side{
+    margin-left: 90px;
+    width: 20px;
+}
+.left-section{
+    width: 50%;
+}
+.left-section h1,
+p,
+button{
+    margin-left: 100px;
+}
+.bottom{
+    margin-left: 550px;
+}
+.mouse{
+    margin-left: 580px;
+    width: 20px;
+}
+.stet img{
+    position: absolute;
+    width: 37.9%;
+    z-index: -1;
+    top: 10px;
+    left: 10%;
+}
+.appointment button{
+    padding: 10px 20px;
+    border-radius: 8px;
+    background-color:  #20bc7e;
+    color: white;
+    font-weight: 800;
+    border-style: none;
+    font-family: 'Poppins', sans-serif;
+}
+.appointment button:hover{
+    cursor: pointer;
+    background-color: white;
+    color: black;
+}
+/* right-section */
+.right-section{
+    width: 50%;
+}
+.green-box img{
+    position: absolute;
+    bottom: 33px;
+    right: 0;
+    width: 27%;
+}
+.yellow-box img{
+    width: 15%;
+    right: 0;
+    bottom: 50px;
+    position: absolute;
+}
+.doctor img{
+    width: 30vw;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
